@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Task12._2.CustomerModel">
+    <Position X="5.75" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Task12._2.CustomerView">
+    <Position X="1.5" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAgAAIAAAAAAQAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>View.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ICustomerView" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Task12._2.CustomerPresenter">
+    <Position X="5.25" Y="0.75" Width="2" />
+    <AssociationLine Name="CustomerView" Type="Task12._2.CustomerView" ManuallyRouted="true">
+      <Path>
+        <Point X="5.969" Y="2.254" />
+        <Point X="5.969" Y="2.469" />
+        <Point X="4.342" Y="2.469" />
+        <Point X="4.342" Y="4.7" />
+        <Point X="3.25" Y="4.7" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAiCAAAAAAAAAAIAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Presenter.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CustomerView" />
+      <Property Name="CustomerModel" />
+    </ShowAsAssociation>
+  </Class>
+  <Interface Name="Task12._2.ICustomerView">
+    <Position X="1.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAIAAAAAAQAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>ICustomerView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Verdana Pro" Size="10" />
+</ClassDiagram>
